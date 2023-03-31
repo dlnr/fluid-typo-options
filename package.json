@@ -1,7 +1,6 @@
 {
   "name": "fluid-typo-options",
   "private": true,
-  "homepage": "https://alimpens.github.io/fluid-typo-options/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

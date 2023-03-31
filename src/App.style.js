@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { calculateFluidStyle } from './utils'
 
 export const Wrapper = styled.div`
   max-width: 1440px;
@@ -54,20 +55,12 @@ export const Heading1 = styled.h1`
   margin-inline-end: 0;
   margin-inline-start: 0;
   box-sizing: border-box;
-  font-size: clamp(
-    4.444375rem,
-    4.444375rem + 2.2225 * (100vw - 51.25rem) / 68.75,
-    6.666875rem
-  );
+  font-size: ${calculateFluidStyle(71.11111, 106.6666, 820, 1920)};
   line-height: 100%;
   margin-bottom: 40px;
 
   @media screen and (max-width: 819px) {
-    font-size: clamp(
-      2rem,
-      2rem + 2.368125 * (100vw - 23.4375rem) / 27.75,
-      4.368125rem
-    );
+    font-size: ${calculateFluidStyle(32, 69.89, 375, 819)};
     line-height: 110%;
     margin-bottom: 24px;
   }
@@ -78,20 +71,12 @@ export const Intro = styled.p`
   margin-block: 0;
   box-sizing: border-box;
   -webkit-text-size-adjust: 100%;
-  font-size: clamp(
-    1.625rem,
-    1.625rem + 0.875 * (100vw - 51.25rem) / 68.75,
-    2.5rem
-  );
+  font-size: ${calculateFluidStyle(26.6666, 40, 820, 1920)};
   line-height: 150%;
   margin-bottom: 80px;
 
   @media screen and (max-width: 819px) {
-    font-size: clamp(
-      1.375rem,
-      1.375rem + 1.625 * (100vw - 23.4375rem) / 27.75,
-      3rem
-    );
+    font-size: ${calculateFluidStyle(22, 48.05, 375, 819)};
     line-height: 160%;
     margin-bottom: 56px;
   }
@@ -105,17 +90,9 @@ export const Paragraph = styled.p`
   -webkit-text-size-adjust: 100%;
   margin-bottom: 40px;
   line-height: 160%;
-  font-size: clamp(
-    1.333125rem,
-    1.333125rem + 0.1668750000000001 * (100vw - 51.25rem) / 68.75,
-    1.5rem
-  );
+  font-size: ${calculateFluidStyle(21.3333, 32, 820, 1920)};
 
   @media screen and (max-width: 819px) {
-    font-size: clamp(
-      1.125rem,
-      1.125rem + 1.3318750000000001 * (100vw - 23.4375rem) / 27.75,
-      2.456875rem
-    );
+    font-size: ${calculateFluidStyle(18, 39.31, 375, 819)};
   }
 `

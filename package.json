@@ -1,6 +1,7 @@
 {
   "name": "fluid-typo-options",
   "private": true,
+  "website": ".",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

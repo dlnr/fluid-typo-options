@@ -1,4 +1,10 @@
-import styled from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
+
+export const GlobalStyle = createGlobalStyle`
+  * {
+    color: red;
+  }
+`
 
 export const Wrapper = styled.div`
   max-width: 1920px;
@@ -6,7 +12,7 @@ export const Wrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(1, auto);
-  column-gap: 2%;
+  column-gap: 2vw;
 
   @media screen and (max-width: 853px) {
     grid-template-columns: repeat(4, 1fr);

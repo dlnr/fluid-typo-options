@@ -1,5 +1,6 @@
 import { useLayoutEffect, useState } from 'react'
 import Article from './Article'
+import Homepage from './Homepage'
 import * as Styled from './App.style'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <>
+      <Styled.GlobalStyle />
       <Styled.Wrapper>
         <Styled.MetadataTitleContainer>
           <h1>Meta</h1>
@@ -27,6 +29,7 @@ function App() {
           <p>{`Schermbreedte: ${screenWidth}px`}</p>
         </Styled.MetadataContainer>
         <Article />
+        {/* <Homepage /> */}
       </Styled.Wrapper>
     </>
   )

@@ -19,27 +19,6 @@ export const TextContainer = styled.div`
   }
 `
 
-export const Hero = styled.h1`
-  break-after: avoid;
-  break-inside: avoid;
-  color: black;
-  font-weight: 800;
-  margin-block-end: 0;
-  margin-block-start: 0;
-  margin-inline-end: 0;
-  margin-inline-start: 0;
-  box-sizing: border-box;
-  font-size: ${calculateFluidStyle(75, 96, 854, 1920)};
-  line-height: 100%;
-  margin-bottom: 40px;
-
-  @media screen and (max-width: 853px) {
-    font-size: ${calculateFluidStyle(32, 75, 320, 853)};
-    line-height: 110%;
-    margin-bottom: 24px;
-  }
-`
-
 export const Heading1 = styled.h1`
   break-after: avoid;
   break-inside: avoid;

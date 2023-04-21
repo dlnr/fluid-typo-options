@@ -62,14 +62,14 @@ Error generating stack: `+i.message+`
     )`},Tm=Ve.div`
   grid-area: auto / 2 / auto / span 10;
 
-  @media screen and (max-width: 819px) {
+  @media screen and (max-width: 853px) {
     grid-column-start: 1;
     grid-column-end: span 4;
   }
 `,Rm=Ve.div`
   grid-area: auto / 3 / auto / span 8;
 
-  @media screen and (max-width: 819px) {
+  @media screen and (max-width: 853px) {
     grid-column-start: 1;
     grid-column-end: span 4;
   }
@@ -83,12 +83,12 @@ Error generating stack: `+i.message+`
   margin-inline-end: 0;
   margin-inline-start: 0;
   box-sizing: border-box;
-  font-size: ${ve(75,96,820,1920)};
+  font-size: ${ve(75,96,854,1920)};
   line-height: 100%;
   margin-bottom: 40px;
 
-  @media screen and (max-width: 819px) {
-    font-size: ${ve(32,75,320,819)};
+  @media screen and (max-width: 853px) {
+    font-size: ${ve(32,75,320,853)};
     line-height: 110%;
     margin-bottom: 24px;
   }
@@ -102,12 +102,12 @@ Error generating stack: `+i.message+`
   margin-inline-end: 0;
   margin-inline-start: 0;
   box-sizing: border-box;
-  font-size: ${ve(59,72,820,1920)};
+  font-size: ${ve(59,72,854,1920)};
   line-height: 100%;
   margin-bottom: 40px;
 
-  @media screen and (max-width: 819px) {
-    font-size: ${ve(32,59,320,819)};
+  @media screen and (max-width: 853px) {
+    font-size: ${ve(32,59,320,853)};
     line-height: 110%;
     margin-bottom: 24px;
   }
@@ -121,12 +121,12 @@ Error generating stack: `+i.message+`
   margin-inline-end: 0;
   margin-inline-start: 0;
   box-sizing: border-box;
-  font-size: ${ve(41,48,820,1920)};
+  font-size: ${ve(41,48,854,1920)};
   line-height: 100%;
   margin-bottom: 40px;
 
-  @media screen and (max-width: 819px) {
-    font-size: ${ve(28,41,320,819)};
+  @media screen and (max-width: 853px) {
+    font-size: ${ve(28,41,320,853)};
     line-height: 110%;
     margin-bottom: 24px;
   }
@@ -140,12 +140,12 @@ Error generating stack: `+i.message+`
   margin-inline-end: 0;
   margin-inline-start: 0;
   box-sizing: border-box;
-  font-size: ${ve(35,40,820,1920)};
+  font-size: ${ve(35,40,854,1920)};
   line-height: 100%;
   margin-bottom: 40px;
 
-  @media screen and (max-width: 819px) {
-    font-size: ${ve(24,35,320,819)};
+  @media screen and (max-width: 853px) {
+    font-size: ${ve(24,35,320,853)};
     line-height: 110%;
     margin-bottom: 24px;
   }
@@ -159,12 +159,12 @@ Error generating stack: `+i.message+`
   margin-inline-end: 0;
   margin-inline-start: 0;
   box-sizing: border-box;
-  font-size: ${ve(25,28,820,1920)};
+  font-size: ${ve(25,28,854,1920)};
   line-height: 100%;
   margin-bottom: 40px;
 
-  @media screen and (max-width: 819px) {
-    font-size: ${ve(20,25,320,819)};
+  @media screen and (max-width: 853px) {
+    font-size: ${ve(20,25,320,853)};
     line-height: 110%;
     margin-bottom: 24px;
   }
@@ -173,12 +173,12 @@ Error generating stack: `+i.message+`
   margin-block: 0;
   box-sizing: border-box;
   -webkit-text-size-adjust: 100%;
-  font-size: ${ve(29,32,820,1920)};
+  font-size: ${ve(29,32,854,1920)};
   line-height: 150%;
   margin-bottom: 80px;
 
-  @media screen and (max-width: 819px) {
-    font-size: ${ve(22,29,320,819)};
+  @media screen and (max-width: 853px) {
+    font-size: ${ve(22,29,320,853)};
     line-height: 160%;
     margin-bottom: 56px;
   }
@@ -190,10 +190,10 @@ Error generating stack: `+i.message+`
   -webkit-text-size-adjust: 100%;
   margin-bottom: 40px;
   line-height: 160%;
-  font-size: ${ve(23,26,820,1920)};
+  font-size: ${ve(23,26,854,1920)};
 
-  @media screen and (max-width: 819px) {
-    font-size: ${ve(18,23,320,819)};
+  @media screen and (max-width: 853px) {
+    font-size: ${ve(18,23,320,853)};
   }
 `,Mm=Ve.p`
   color: black;
@@ -203,10 +203,10 @@ Error generating stack: `+i.message+`
   -webkit-text-size-adjust: 100%;
   margin-bottom: 40px;
   line-height: 160%;
-  font-size: ${ve(17,18,820,1920)};
+  font-size: ${ve(17,18,854,1920)};
 
-  @media screen and (max-width: 819px) {
-    font-size: ${ve(16,17,320,819)};
+  @media screen and (max-width: 853px) {
+    font-size: ${ve(16,17,320,853)};
   }
 `,Dm=Ve.blockquote`
   color: black;
@@ -214,7 +214,7 @@ Error generating stack: `+i.message+`
   -webkit-text-size-adjust: 100%;
   margin-bottom: 40px;
   line-height: 110%;
-  font-size: ${ve(35,40,820,1920)};
+  font-size: ${ve(35,40,854,1920)};
   font-weight: 800;
   font-style: italic;
   quotes: '“' '”';
@@ -228,8 +228,8 @@ Error generating stack: `+i.message+`
     content: close-quote;
   }
 
-  @media screen and (max-width: 819px) {
-    font-size: ${ve(24,35,320,819)};
+  @media screen and (max-width: 853px) {
+    font-size: ${ve(24,35,320,853)};
   }
 `,Fm=()=>al(Ua,{children:[al(Tm,{children:[pe(Lm,{children:"Voorlopige uitslag Provinciale Statenverkiezingen 2023 - heading 1 text level 2"}),pe(jm,{children:"GroenLinks blijft in Amsterdam de grootste partij. Dat blijkt na het tellen van 100 procent van de stemmen. In deze voorlopige uitslag van de verkiezingen voor de Provinciale Staten staat de partij op 18,3 procent. Dat is minder dan bij de verkiezingen van 2019, toen de partij 23,8 procent van de stemmen kreeg. Paragraph large text level 5"})]}),al(Rm,{children:[pe(Am,{children:"Voorlopige uitslag Provinciale - heading 2 text level 3"}),pe(oo,{children:"De verkiezingen zijn, landelijk gezien, uitgelopen op aanzienlijke verschuivingen in electorale voorkeur, met name aan de rechts-conservatieve kant van het politieke spectrum. BBB is de grote winnaar, FvD de grote verliezer. Ja21 wint ook, terwijl VVD en PVV verliezen; het CDA verliest bijna de helft van zijn electoraat, maar ook SGP en CU verliezen. Paragraph text level 7"}),pe(Om,{children:"Voorlopige uitslag Provinciale - heading 3 text level 4"}),pe(oo,{children:"Aan de linkerkant van het politiek spectrum zijn de verschuivingen veel minder groot. GroenLinks en PvdA blijven gezamenlijk ongeveer even groot. D66 en SP verliezen licht terwijl de Partij voor de Dieren en Volt juist kiezers winnen. Paragraph text level 7"}),pe(Im,{children:"Voorlopige uitslag Provinciale - heading 4 text level 6"}),pe(oo,{children:"Aan de linkerkant van het politiek spectrum zijn de verschuivingen veel minder groot. GroenLinks en PvdA blijven gezamenlijk ongeveer even groot. D66 en SP verliezen licht terwijl de Partij voor de Dieren en Volt juist kiezers winnen. Paragraph text level 7"}),pe(Mm,{children:"Aan de linkerkant van het politiek spectrum zijn de verschuivingen veel minder groot. GroenLinks en PvdA blijven gezamenlijk ongeveer even groot. Paragraph small text level 8"}),pe(Dm,{children:"Aan de linkerkant van het politiek spectrum zijn de verschuivingen veel minder groot. GroenLinks en PvdA blijven gezamenlijk ongeveer even groot. Quote text level 4"})]})]}),Um=Ve.div`
   max-width: 1920px;
@@ -239,7 +239,7 @@ Error generating stack: `+i.message+`
   grid-template-rows: repeat(1, auto);
   column-gap: 2%;
 
-  @media screen and (max-width: 819px) {
+  @media screen and (max-width: 853px) {
     grid-template-columns: repeat(4, 1fr);
   }
 `,Bm=Ve.div`
@@ -247,7 +247,7 @@ Error generating stack: `+i.message+`
 
   grid-area: auto / auto / auto / span 12;
 
-  @media screen and (max-width: 819px) {
+  @media screen and (max-width: 853px) {
     grid-area: auto / auto / auto / span 4;
   }
 `,Vm=Ve.div`
@@ -255,4 +255,8 @@ Error generating stack: `+i.message+`
 
   grid-area: auto / auto / auto / span 12;
   margin-bottom: 72px;
+
+  @media screen and (max-width: 853px) {
+    grid-area: auto / auto / auto / span 4;
+  }
 `;function Hm(){const[e,t]=ft.useState(window.innerWidth);return ft.useLayoutEffect(()=>{const n=()=>{t(window.innerWidth)};return window.addEventListener("resize",n),()=>{window.removeEventListener("resize",n)}},[]),pe(Ua,{children:al(Um,{children:[pe(Bm,{children:pe("h1",{children:"Meta"})}),pe(Vm,{children:pe("p",{children:`Schermbreedte: ${e}px`})}),pe(Fm,{})]})})}uo.createRoot(document.getElementById("root")).render(pe(Ir.StrictMode,{children:pe(Hm,{})}));

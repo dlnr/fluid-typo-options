@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
   grid-template-rows: repeat(1, auto);
   column-gap: 2%;
 
-  @media screen and (max-width: 819px) {
+  @media screen and (max-width: 853px) {
     grid-template-columns: repeat(4, 1fr);
   }
 `
@@ -18,7 +18,7 @@ export const MetadataTitleContainer = styled.div`
 
   grid-area: auto / auto / auto / span 12;
 
-  @media screen and (max-width: 819px) {
+  @media screen and (max-width: 853px) {
     grid-area: auto / auto / auto / span 4;
   }
 `
@@ -28,4 +28,8 @@ export const MetadataContainer = styled.div`
 
   grid-area: auto / auto / auto / span 12;
   margin-bottom: 72px;
+
+  @media screen and (max-width: 853px) {
+    grid-area: auto / auto / auto / span 4;
+  }
 `

@@ -2,7 +2,7 @@ import * as Styled from './Article.style'
 
 const Article = () => (
   <>
-    <Styled.HeadingAndIntroContainer>
+    <Styled.HeadingAndIntroContainer style={{ marginTop: '80px' }}>
       <Styled.Heading1>
         Voorlopige uitslag Provinciale Statenverkiezingen 2023 - heading 1 text
         level 2

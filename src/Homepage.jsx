@@ -9,6 +9,7 @@ import {
   moreLinks,
 } from './data'
 import { Heading1, Heading3, Heading4, ParagraphSmall } from './Article.style'
+import logo from '/logo-gemeente-amsterdam-large.svg'
 
 const Homepage = () => {
   const HighlightCardData = mockData.featured[0].publications
@@ -20,7 +21,7 @@ const Homepage = () => {
   return (
     <>
       <Styled.Header>
-        <Styled.HeaderLogo src="/logo-gemeente-amsterdam-large.svg" />
+        <Styled.HeaderLogo src={logo} />
         <div>
           <Styled.HeaderButtons>Zoek</Styled.HeaderButtons>
           <Styled.HeaderButtons>Menu</Styled.HeaderButtons>

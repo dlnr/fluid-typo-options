@@ -16,7 +16,7 @@ export const Wrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(1, auto);
-  column-gap: 2vw;
+  column-gap: 24px;
   padding: 0 32px;
 
   @media screen and (max-width: 853px) {

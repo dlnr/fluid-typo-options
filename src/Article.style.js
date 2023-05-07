@@ -33,8 +33,7 @@ export const TextContainer = styled.div`
 
 export const Heading1 = styled.h1`
   ${genericHeadingStyle}
-  
-  font-size: clamp(32px, 4.1667vw, 80px);
+  ${level1}
   
   line-height: 100%;
   margin-bottom: 40px;
@@ -47,8 +46,7 @@ export const Heading1 = styled.h1`
 
 export const Heading2 = styled.h2`
   ${genericHeadingStyle}
-  
-  font-size: clamp(28px, 2.9167vw, 56px);
+  ${level2}
 
   line-height: 100%;
   margin-bottom: 40px;
@@ -61,8 +59,7 @@ export const Heading2 = styled.h2`
 
 export const Heading3 = styled.h3`
   ${genericHeadingStyle}
-  
-  font-size: clamp(24px, 2.0835vw, 40px);
+  ${level3}
 
   line-height: 100%;
   margin-bottom: 40px;
@@ -75,8 +72,7 @@ export const Heading3 = styled.h3`
 
 export const Heading4 = styled.h4`
   ${genericHeadingStyle}
-  
-  font-size: clamp(22px, 1.6669vw, 32px);
+  ${level4}
 
   line-height: 100%;
   margin-bottom: 40px;
@@ -89,8 +85,6 @@ export const Heading4 = styled.h4`
 
 export const Intro = styled.p`
   ${genericParagraphStyle}
-  
-  font-size: clamp(18px, 1.25vw, 24px);
 
   line-height: 150%;
   margin-bottom: 80px;
@@ -103,8 +97,6 @@ export const Intro = styled.p`
 
 export const Paragraph = styled.p`
   ${genericParagraphStyle}
-  
-  font-size: clamp(18px, 1.25vw, 24px);
 
   margin-bottom: 40px;
   line-height: 160%;

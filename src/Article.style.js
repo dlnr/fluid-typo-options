@@ -16,7 +16,7 @@ import {
 export const HeadingAndIntroContainer = styled.div`
   grid-area: auto / 3 / auto / span 8;
 
-  @media screen and (max-width: 853px) {
+  @media screen and (max-width: 720px) {
     grid-column-start: 1;
     grid-column-end: span 4;
   }
@@ -25,7 +25,7 @@ export const HeadingAndIntroContainer = styled.div`
 export const TextContainer = styled.div`
   grid-area: auto / 4 / auto / span 6;
 
-  @media screen and (max-width: 853px) {
+  @media screen and (max-width: 720px) {
     grid-column-start: 1;
     grid-column-end: span 4;
   }
@@ -34,11 +34,11 @@ export const TextContainer = styled.div`
 export const Heading1 = styled.h1`
   ${genericHeadingStyle}
   ${level1}
-  
+
   line-height: 100%;
   margin-bottom: 40px;
 
-  @media screen and (max-width: 853px) {
+  @media screen and (max-width: 720px) {
     line-height: 110%;
     margin-bottom: 24px;
   }
@@ -51,7 +51,7 @@ export const Heading2 = styled.h2`
   line-height: 100%;
   margin-bottom: 40px;
 
-  @media screen and (max-width: 853px) {
+  @media screen and (max-width: 720px) {
     line-height: 110%;
     margin-bottom: 24px;
   }
@@ -64,7 +64,7 @@ export const Heading3 = styled.h3`
   line-height: 100%;
   margin-bottom: 40px;
 
-  @media screen and (max-width: 853px) {
+  @media screen and (max-width: 720px) {
     line-height: 110%;
     margin-bottom: 24px;
   }
@@ -77,7 +77,7 @@ export const Heading4 = styled.h4`
   line-height: 100%;
   margin-bottom: 40px;
 
-  @media screen and (max-width: 853px) {
+  @media screen and (max-width: 720px) {
     line-height: 110%;
     margin-bottom: 24px;
   }
@@ -89,7 +89,7 @@ export const Intro = styled.p`
   line-height: 150%;
   margin-bottom: 80px;
 
-  @media screen and (max-width: 853px) {
+  @media screen and (max-width: 720px) {
     line-height: 160%;
     margin-bottom: 56px;
   }
@@ -104,7 +104,7 @@ export const Paragraph = styled.p`
 
 export const ParagraphSmall = styled.p`
   ${genericParagraphStyle}
-  
+
   margin-bottom: 40px;
   line-height: 160%;
 `

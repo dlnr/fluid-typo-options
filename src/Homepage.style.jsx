@@ -9,7 +9,7 @@ export const Header = styled.header`
   padding: 20px 0;
   margin-bottom: 56px;
 
-  @media screen and (max-width: 853px) {
+  @media screen and (max-width: 720px) {
     grid-area: auto / auto / auto / span 4;
   }
 `
@@ -52,7 +52,7 @@ export const Hero = styled.h1`
   line-height: 100%;
   margin-bottom: 64px;
 
-  @media screen and (max-width: 853px) {
+  @media screen and (max-width: 720px) {
     /* line-height: 110%;
     margin-bottom: 24px; */
     display: none;
@@ -62,7 +62,7 @@ export const Hero = styled.h1`
 export const NavBlock = styled.div`
   grid-area: auto / auto / span 6 / span 3;
 
-  @media screen and (max-width: 853px) {
+  @media screen and (max-width: 720px) {
     display: none;
   }
 `
@@ -70,7 +70,7 @@ export const NavBlock = styled.div`
 export const TwelveColumn = styled.div`
   grid-area: auto / auto / auto / span 12;
 
-  @media screen and (max-width: 853px) {
+  @media screen and (max-width: 720px) {
     grid-area: auto / auto / auto / span 4;
   }
 `
@@ -78,7 +78,7 @@ export const TwelveColumn = styled.div`
 export const EightColumn = styled.div`
   grid-area: auto / 5 / auto / span 8;
 
-  @media screen and (max-width: 853px) {
+  @media screen and (max-width: 720px) {
     grid-area: auto / auto / auto / span 4;
   }
 `
@@ -86,7 +86,7 @@ export const EightColumn = styled.div`
 export const FourColumn = styled.div`
   grid-area: auto / auto / auto / span 4;
 
-  @media screen and (max-width: 853px) {
+  @media screen and (max-width: 720px) {
     grid-area: auto / auto / auto / span 4;
   }
 `
@@ -148,9 +148,9 @@ export const MediumCardList = styled(List)`
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(1, auto);
-  column-gap: 24px;
+  column-gap: calc(min(100vw, 1440px) * 0.02);
 
-  @media screen and (max-width: 853px) {
+  @media screen and (max-width: 720px) {
     grid-template-columns: repeat(4, 1fr);
   }
 `
@@ -161,7 +161,7 @@ export const MediumCardListItem = styled.li`
   :nth-child(even) {
     padding-top: 80px;
 
-    @media screen and (max-width: 853px) {
+    @media screen and (max-width: 720px) {
       padding-top: 0;
     }
   }
@@ -200,9 +200,9 @@ export const CollectionCardList = styled(List)`
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(1, auto);
-  column-gap: 24px;
+  column-gap: 28.8px;
 
-  @media screen and (max-width: 853px) {
+  @media screen and (max-width: 720px) {
     grid-template-columns: repeat(4, 1fr);
   }
 `
@@ -226,24 +226,24 @@ export const Footer = styled.div`
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(1, auto);
-  column-gap: 24px;
+  column-gap: 2%;
   background-color: #004699;
   padding: 40px 32px;
   grid-area: auto / auto / auto / span 12;
   margin-bottom: 40px;
   color: white !important;
 
-  margin-left: -32px;
-  margin-right: -32px;
+  // margin-left: -32px;
+  // margin-right: -32px;
 
-  @media screen and (max-width: 853px) {
+  @media screen and (max-width: 720px) {
     grid-template-columns: repeat(4, 1fr);
     grid-area: auto / auto / auto / span 4;
 
     padding: 40px 16px;
 
-    margin-left: -16px;
-    margin-right: -16px;
+    // margin-left: -16px;
+    // margin-right: -16px;
   }
 `
 
@@ -262,7 +262,7 @@ export const FooterItem = styled.div`
       grid-column-start: 9;
     `}
 
-  @media screen and (max-width: 853px) {
+  @media screen and (max-width: 720px) {
     grid-area: auto / 1 / auto / span 4;
     margin-bottom: 40px;
   }
